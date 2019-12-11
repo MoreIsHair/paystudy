@@ -1,0 +1,28 @@
+swagger:
+  enabled: true
+server:
+  port: 8088
+wx:
+  openId:
+  appId:
+  mchKey:
+  mchId:
+  notifyUrl:
+  keyPath:
+ali:
+  charset: utf-8
+  appId:
+  privateKey:
+  publicKey:
+  notifyUrl:
+  returnUrl:
+  gatewayUrl: https://openapi.alipaydev.com/gateway.do
+  signType: RSA2
+  format: json
+spring:
+  cache:
+    type: ehcache
+    ehcache:
+      config: classpath:ehcache.xml
+  main:
+    allow-bean-definition-overriding: true

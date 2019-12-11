@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alipay" />
+        <module name="common" />
+        <module name="run" />
+        <module name="system" />
+        <module name="wxpay" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alipay" options="-parameters" />
+      <module name="alipayjoint" options="" />
+      <module name="common" options="-parameters" />
+      <module name="run" options="-parameters" />
+      <module name="system" options="-parameters" />
+      <module name="wxpay" options="-parameters" />
+    </option>
+  </component>
+</project>
