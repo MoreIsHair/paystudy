@@ -30,7 +30,7 @@
         <alipay-sdk-java.version>3.7.110.ALL</alipay-sdk-java.version>
         <wxpay-sdk.version>0.0.3</wxpay-sdk.version>
         <zxing.core.version>3.3.0</zxing.core.version>
-
+        <skipTests>true</skipTests>
     </properties>
 
     <dependencyManagement>
